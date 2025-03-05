@@ -32,7 +32,6 @@
   position: absolute;
   display: flex;
   gap: 10px;
-  margin-inline-end: 9px;
   justify-self: flex-end;
   align-items: center;
   margin-block-start: var(--main-padding);
