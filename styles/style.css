@@ -56,8 +56,8 @@
   gap: 10px;
   justify-self: flex-end;
   align-items: center;
-  margin-block-start: var(--main-padding);
-  margin-inline-end: calc(var(--main-padding) + 9px);
+  inset-block-start: 10px;
+  inset-inline-end: 19px;
 }
 
 .header-decor__text::after {
@@ -169,6 +169,7 @@
 
 .card-list-advice .card-title {
   margin-block-end: 0;
+  font-weight: 400;
 }
 
 .card__text {
@@ -225,6 +226,11 @@
   .decorated-zone::before {
     inset-block-end: 20px;
     inset-inline-start: 20px;
+  }
+
+  .header-decor__text {
+    inset-block-start: 20px;
+    inset-inline-end: 29px;
   }
 
   .title {
@@ -313,7 +319,7 @@
   }
 
   .cards {
-    grid-template-columns: 1fr 2.06fr;
+    grid-template-columns: 1fr 2fr;
   }
 
   .cards-reasons .card-list {
